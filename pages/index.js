@@ -106,7 +106,11 @@ export default function Home() {
                 <span>ALL Photos</span>
               </a>
               <a href="photos-climbing.html" className="feature-post-item">
-                <img src="assets/imgs/youngnam.jpg" className="w-100" alt="" />
+                <img
+                  src="assets/imgs/mountain-climbing.JPG"
+                  className="w-100"
+                  alt=""
+                />
                 <div className="feature-post-caption">Mountain climbing</div>
               </a>
               <a href="photos-running.html" className="feature-post-item">
@@ -117,13 +121,13 @@ export default function Home() {
                 />
                 <div className="feature-post-caption">Running</div>
               </a>
-              <a href="photos-bike.html" className="feature-post-item">
+              <a href="photo-book" className="feature-post-item">
                 <img src="assets/imgs/bike-man.jpg" className="w-100" alt="" />
                 <div className="feature-post-caption">Bike riding</div>
               </a>
-              <a href="photos-jeju.html" className="feature-post-item">
+              <a href="photo-book" className="feature-post-item">
                 <img
-                  src="assets/imgs/header.JPG"
+                  src="assets/imgs/header.jpg"
                   className="w-100"
                   alt=""
                   style={{ height: "176.25px" }}
