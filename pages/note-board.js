@@ -36,7 +36,7 @@ export default function Home() {
         {/* page First Navigation */}
         <nav className="navbar navbar-light bg-light">
           <div className="container">
-            <a className="navbar-brand" href="index.html" s="">
+            <a className="navbar-brand" href="/" s="">
               <img src="assets/imgs/logo.png" alt="" />
             </a>
             <div className="socials">
@@ -96,7 +96,7 @@ export default function Home() {
             <div className="page-content">
               <div className="card">
                 <div className="card-header pt-0">
-                  <h3 className="card-title mb-4">
+                  <h3 className="card-title mb-4" style={{ color: "gray" }}>
                     잊지 말자 종주중독 그대의 최고의 날을 함께 했으니...
                   </h3>
                   <div className="blog-media mb-4">
@@ -279,8 +279,11 @@ export default function Home() {
               </div>
               <div className="col-md-9 text-center text-md-right"></div>
             </div>
-            <p className="border-top mb-0 mt-4 pt-3 small">
-              © , JoeBlog Created By{" "}
+            <p
+              className="border-top mb-0 mt-4 pt-3 small"
+              style={{ color: "black" }}
+            >
+              © , 종주중독 Created By{" "}
               <a
                 href="https://www.devcrud.com"
                 className="text-muted font-weight-bold"
@@ -299,7 +302,7 @@ export default function Home() {
         <Script src="assets/vendors/bootstrap/bootstrap.bundle.js"></Script>
 
         {/* <!-- JoeBLog js --> */}
-        <Script src="assets/js/joeblog.js"></Script>
+        {/* <Script src="assets/js/joeblog.js"></Script> */}
       </div>
     </>
   );

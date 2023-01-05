@@ -42,7 +42,7 @@ export default function Home() {
         {/* page First Navigation */}
         <nav className="navbar navbar-light bg-light">
           <div className="container">
-            <a className="navbar-brand" href="index.html" s="">
+            <a className="navbar-brand" href="/" s="">
               <img src="assets/imgs/logo.png" alt="" />
             </a>
             <div className="socials">
@@ -106,11 +106,7 @@ export default function Home() {
                 <span>ALL Photos</span>
               </a>
               <a href="photos-climbing.html" className="feature-post-item">
-                <img
-                  src="assets/imgs/mountain-climbing.jpg"
-                  className="w-100"
-                  alt=""
-                />
+                <img src="assets/imgs/youngnam.jpg" className="w-100" alt="" />
                 <div className="feature-post-caption">Mountain climbing</div>
               </a>
               <a href="photos-running.html" className="feature-post-item">
@@ -126,7 +122,12 @@ export default function Home() {
                 <div className="feature-post-caption">Bike riding</div>
               </a>
               <a href="photos-jeju.html" className="feature-post-item">
-                <img src="assets/imgs/youngnam.JPG" className="w-100" alt="" />
+                <img
+                  src="assets/imgs/header.JPG"
+                  className="w-100"
+                  alt=""
+                  style={{ height: "176.25px" }}
+                />
                 <div className="feature-post-caption">JEJU Round crossing</div>
               </a>
             </div>
@@ -166,10 +167,7 @@ export default function Home() {
                 </div>
                 <div className="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                   {/* <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button> */}
-                  <a
-                    href="note-board.html"
-                    className="btn btn-outline-dark btn-sm"
-                  >
+                  <a href="/note-board" className="btn btn-outline-dark btn-sm">
                     READ MORE
                   </a>
                   <a
@@ -181,9 +179,6 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <button className="btn btn-primary btn-block my-4">
-                Load More Posts
-              </button>
             </div>
             {/* Sidebar */}
             <div className="page-sidebar text-center">
@@ -254,7 +249,11 @@ export default function Home() {
               <div className="row px-3">
                 <div className="col-4 p-1 figure">
                   <a href="#" className="figure-img">
-                    <img src="assets/imgs/hnami.png" alt="" />
+                    <img
+                      src="assets/imgs/hnami.png"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
                 <div className="col-4 p-1 figure">
@@ -262,12 +261,20 @@ export default function Home() {
                     href="https://www.instagram.com/gend.r/"
                     className="figure-img"
                   >
-                    <img src="assets/imgs/ryu_insta.png" alt="" />
+                    <img
+                      src="assets/imgs/ryu_insta.png"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
                 <div className="col-4 p-1 figure">
                   <a href="#" className="figure-img">
-                    <img src="assets/imgs/sunkyoung.png" alt="" />
+                    <img
+                      src="assets/imgs/sunkyoung.png"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
                 <div className="col-4 p-1 figure">
@@ -275,12 +282,20 @@ export default function Home() {
                     href="https://www.instagram.com/ghwnsgkgkgk/"
                     className="figure-img"
                   >
-                    <img src="assets/imgs/leejoonho.jpg" alt="" />
+                    <img
+                      src="assets/imgs/leejoonho.jpg"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
                 <div className="col-4 p-1 figure">
                   <a href="#" className="figure-img">
-                    <img src="assets/imgs/soyoung.png" alt="" />
+                    <img
+                      src="assets/imgs/soyoung.png"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
                 <div className="col-4 p-1 figure">
@@ -288,7 +303,11 @@ export default function Home() {
                     href="https://www.instagram.com/harammmy/"
                     className="figure-img"
                   >
-                    <img src="assets/imgs/leejoonho.jpg" alt="" />
+                    <img
+                      src="assets/imgs/good.jpg"
+                      alt=""
+                      style={{ width: "90px", height: "90px" }}
+                    />
                   </a>
                 </div>
               </div>
@@ -307,7 +326,10 @@ export default function Home() {
                 <div className="socials"></div>
               </div>
             </div>
-            <p className="border-top mb-0 mt-4 pt-3 small">
+            <p
+              className="border-top mb-0 mt-4 pt-3 small"
+              style={{ color: "black" }}
+            >
               © , 종주중독 Created By
               <a
                 href="https://smart-factory-lee-joon-ho.tistory.com/"
@@ -327,7 +349,7 @@ export default function Home() {
         <Script src="assets/vendors/bootstrap/bootstrap.bundle.js"></Script>
 
         {/* <!-- JoeBLog js --> */}
-        <Script src="assets/js/joeblog.js"></Script>
+        {/* <Script src="/hikehigh/public/assets/js/joeblog.js"></Script> */}
       </div>
     </>
   );

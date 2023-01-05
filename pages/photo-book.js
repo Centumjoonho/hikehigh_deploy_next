@@ -43,7 +43,7 @@ export default function Photos() {
           {/* page First Navigation */}
           <nav className="navbar navbar-light bg-light">
             <div className="container">
-              <a className="navbar-brand" href="index.html" s="">
+              <a className="navbar-brand" href="/" >
                 <img src="assets/imgs/logo.png" alt="/" />
               </a>
               <div className="socials">
@@ -94,16 +94,7 @@ export default function Photos() {
                     </Link>
                   </li>
                 </ul>
-                <div className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a
-                      href="components.html"
-                      className="ml-4 btn btn-dark mt-1 btn-sm"
-                    >
-                      Components
-                    </a>
-                  </li>
-                </div>
+                <div className="navbar-nav ml-auto"></div>
               </div>
             </div>
           </nav>
@@ -464,7 +455,7 @@ export default function Photos() {
           crossorigin="anonymous"
         ></Script>
         {/* <!-- JoeBLog js --> */}
-        <Script src="assets/js/joeblog.js"></Script>
+        {/* <Script src="assets/js/joeblog.js"></Script> */}
         {/* <Script src="./종주중독_files/front_web_page.js"></Script> */}
       </div>
     </>
