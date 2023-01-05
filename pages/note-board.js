@@ -97,7 +97,7 @@ export default function Home() {
               <div className="card">
                 <div className="card-header pt-0">
                   <h3 className="card-title mb-4" style={{ color: "gray" }}>
-                    잊지 말자 종주중독 그대의 최고의 날을 함께 했으니...
+                    Where there is a will there is a way
                   </h3>
                   <div className="blog-media mb-4">
                     <img

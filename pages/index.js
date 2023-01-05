@@ -102,7 +102,7 @@ export default function Home() {
         <div className="container">
           <section>
             <div className="feature-posts">
-              <a href="photo-book.html" className="feature-post-item">
+              <a href="/photo-book" className="feature-post-item">
                 <span>ALL Photos</span>
               </a>
               <a href="photos-climbing.html" className="feature-post-item">
